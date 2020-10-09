@@ -14,7 +14,7 @@ public class MatrixFindX extends AppCompatActivity {
         setContentView(R.layout.activity_matrix_find_x);
     }
     public void AddEqual(View view){
-        Intent intent= new Intent(this, MatrixRank.class);
+        Intent intent= new Intent(this, Solution.class);
         startActivity(intent);
     }
 }
