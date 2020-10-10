@@ -14,7 +14,7 @@ public class MatrixTranspose extends AppCompatActivity {
         setContentView(R.layout.activity_matrix_transpose);
     }
     public void AddEqual(View view){
-        Intent intent= new Intent(this, Solution.class);
+        Intent intent=new Intent(this,Solution.class);
         startActivity(intent);
     }
 }

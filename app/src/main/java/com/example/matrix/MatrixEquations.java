@@ -14,7 +14,7 @@ public class MatrixEquations extends AppCompatActivity {
         setContentView(R.layout.activity_matrix_equations);
     }
     public void AddEqual(View view){
-        Intent intent= new Intent(this, Solution.class);
+        Intent intent=new Intent(this,Solution.class);
         startActivity(intent);
     }
 }

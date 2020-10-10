@@ -14,7 +14,7 @@ public class MatrixRank extends AppCompatActivity {
         setContentView(R.layout.activity_matrix_rank);
     }
     public void AddEqual(View view){
-        Intent intent= new Intent(this, Solution.class);
+        Intent intent=new Intent(this,Solution.class);
         startActivity(intent);
     }
 }

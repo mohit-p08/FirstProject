@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 public class MatrixMultiplier extends AppCompatActivity {
 
@@ -14,7 +15,7 @@ public class MatrixMultiplier extends AppCompatActivity {
         setContentView(R.layout.activity_matrix_multiplier);
     }
     public void AddEqual(View view){
-        Intent intent=new Intent(this, Solution.class);
+        Intent intent=new Intent(this,Solution.class);
         startActivity(intent);
     }
 
