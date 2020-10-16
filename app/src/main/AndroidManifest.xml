@@ -9,8 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Solution"
-            android:parentActivityName=".MatrixAddition"></activity>
+        <activity android:name=".elaborationfindX"
+            android:parentActivityName=".MatrixEquations"></activity>
+        <activity
+            android:name=".elaboration"
+            android:parentActivityName=".MatrixEquations" />
+        <activity
+            android:name=".SolutionEquation"
+            android:parentActivityName=".MatrixEquations" />
+        <activity
+            android:name=".Solution2"
+            android:parentActivityName=".MatrixAddition" />
+        <activity
+            android:name=".Solution"
+            android:parentActivityName=".Solution2" />
         <activity
             android:name=".MatrixEquations"
             android:parentActivityName=".MainActivity" />
