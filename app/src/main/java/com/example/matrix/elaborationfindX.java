@@ -21,6 +21,7 @@ public class elaborationfindX extends AppCompatActivity {
         String s1[]=new String[9];
         String s2[]=new String[9];
         int j;
+        //
         //Matrix A
         for(j=0;j<9;j++){
             String s="K"+j;
