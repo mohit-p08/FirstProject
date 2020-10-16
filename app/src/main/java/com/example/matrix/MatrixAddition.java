@@ -74,7 +74,7 @@ public class MatrixAddition extends AppCompatActivity {
             result[i]=store1[i]+store2[i];
         }
 
-
+//
         Intent i2=new Intent(this,elaboration.class);
         i2.putExtra("Extra",result);
         i2.putExtra("Matrix1",store1);
