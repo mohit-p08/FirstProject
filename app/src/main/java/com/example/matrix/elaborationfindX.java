@@ -18,6 +18,7 @@ public class elaborationfindX extends AppCompatActivity {
         int result1[]=i.getIntArrayExtra("MatrixA");
         int result2[]=i.getIntArrayExtra("MatrixB");
         //int result3[]=i.getIntArrayExtra("Extra");
+        //
         String s1[]=new String[9];
         String s2[]=new String[9];
         int j;
