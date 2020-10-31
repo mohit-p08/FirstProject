@@ -19,73 +19,91 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName105"
+        android:id="@+id/MR20"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="416dp"
         android:layout_marginEnd="110dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName106"
+        android:id="@+id/MR21"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="416dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName107"
+        android:id="@+id/MR10"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="370dp"
         android:layout_marginEnd="110dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName108"
+        android:id="@+id/MR02"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="110dp"
         android:layout_marginTop="324dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName109"
+        android:id="@+id/MR11"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="370dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName110"
+        android:id="@+id/MR01"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="324dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/textView34"
@@ -99,37 +117,46 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName111"
+        android:id="@+id/MR12"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="110dp"
         android:layout_marginTop="370dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName112"
+        android:id="@+id/MR00"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="324dp"
         android:layout_marginEnd="110dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName113"
+        android:id="@+id/MR22"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="110dp"
         android:layout_marginTop="416dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

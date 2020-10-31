@@ -6,6 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".MatrixScalar">
 
+    <EditText
+        android:id="@+id/SM1"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM7"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="450dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM8"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="450dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM6"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="450dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM4"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="404dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM0"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM3"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="404dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM2"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/SM5"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="404dp"
+        android:ems="10"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -18,17 +153,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="404dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/textView7"
         android:layout_width="85dp"
@@ -37,94 +161,6 @@
         android:layout_marginTop="300dp"
         android:text="Matrix 1"
         android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="356dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="404dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="356dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName9"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="228dp"
-        android:layout_marginTop="450dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName19"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="450dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName20"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="450dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName21"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="228dp"
-        android:layout_marginTop="404dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="48dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="228dp"
-        android:layout_marginTop="356dp"
-        android:ems="10"
-        android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -187,24 +223,28 @@
         android:id="@+id/textView6"
         android:layout_width="179dp"
         android:layout_height="34dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="192dp"
         android:layout_marginEnd="140dp"
         android:text="Enter Matrix Multiplier :"
+        android:textAlignment="center"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="50dp"
-        android:layout_height="30dp"
+        android:id="@+id/sm"
+        android:layout_width="57dp"
+        android:layout_height="53dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="175dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="numberSigned|number"
+        android:textAlignment="center"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintHorizontal_bias="0.826"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
