@@ -1,3 +1,4 @@
-include ':app1'
+include ':appjp'
+include ':appj'
 include ':app'
 rootProject.name = "Matrix"
