@@ -24,6 +24,7 @@ public class elaboration extends AppCompatActivity {
         String s3[]=new String[9];
         String s2[]=new String[9];
         int j;
+        //
         //Matrix A
         for(j=0;j<9;j++){
             String s="A"+j;
