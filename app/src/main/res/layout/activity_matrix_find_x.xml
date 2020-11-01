@@ -43,6 +43,8 @@
         android:layout_marginEnd="68dp"
         android:text="Matrix 2"
         android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,6 +56,8 @@
         android:layout_marginTop="268dp"
         android:text="Matrix 1"
         android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -308,7 +312,7 @@
         android:id="@+id/editTextTextPersonName117"
         android:layout_width="55dp"
         android:layout_height="32dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="44dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -322,6 +326,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="650dp"
         android:text="AX=B, B=?"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -332,7 +339,7 @@
         android:layout_width="208dp"
         android:layout_height="29dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="100dp"
         android:text="Select the Dimension of Matrix"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
