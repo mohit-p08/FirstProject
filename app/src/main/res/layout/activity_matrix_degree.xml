@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MatrixDegree">
+    tools:context=".MatrixDegree"
+    android:background="@drawable/inner_bg">
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="054dp"
+        android:layout_height="054dp"
         android:layout_marginBottom="130dp"
         android:onClick="AddEqual"
         android:text="="
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/inner_bg"/>
 
     <EditText
         android:id="@+id/T20"

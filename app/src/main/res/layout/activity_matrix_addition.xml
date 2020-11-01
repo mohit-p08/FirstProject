@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MatrixAddition">
+    tools:context=".MatrixAddition"
+    android:background="@drawable/inner_bg">
 
     <TextView
         android:id="@+id/textView77"
@@ -23,9 +24,10 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
         android:layout_marginBottom="130dp"
+        android:background="@drawable/inner_bg"
         android:onClick="AddEqual"
         android:text="="
         android:textSize="36sp"
@@ -361,9 +363,10 @@
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="197dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="65dp"
+        android:background="@drawable/inner_bg"
         android:onClick="Stepbystep"
         android:text="STEP BY STEP SOLUTION"
         app:layout_constraintBottom_toBottomOf="parent"

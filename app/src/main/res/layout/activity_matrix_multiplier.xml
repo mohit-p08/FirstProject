@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MatrixMultiplier">
+    tools:context=".MatrixMultiplier"
+    android:background="@drawable/inner_bg">
 
     <TextView
         android:id="@+id/textView17"
@@ -147,9 +148,10 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
         android:layout_marginBottom="130dp"
+        android:background="@drawable/inner_bg"
         android:onClick="AddEqual"
         android:text="="
         android:textSize="36sp"
