@@ -37,6 +37,8 @@ public class MatrixRank extends AppCompatActivity {
         rank = RankOfMatrix(mat);
         Intent intent=new Intent(this,AnsDM.class);
         intent.putExtra("Extra",rank);
+        String os="Rank =";
+        intent.putExtra("Hell",os);
         startActivity(intent);
     }
 

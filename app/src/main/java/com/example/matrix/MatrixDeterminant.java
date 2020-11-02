@@ -39,6 +39,8 @@ public class MatrixDeterminant extends AppCompatActivity {
 
         Intent intent=new Intent(this,AnsDM.class);
         intent.putExtra("Extra",det);
+        String os="Determinant =";
+        intent.putExtra("Hell",os);
         startActivity(intent);
     }
 }

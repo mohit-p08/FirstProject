@@ -15,8 +15,13 @@ public class AnsDM extends AppCompatActivity {
 
         Intent i=getIntent();
         TextView t;
+        TextView M;
         int det = i.getIntExtra("Extra",0);
         String DM;
+        M=findViewById(R.id.M1);
+        String n=i.getStringExtra("Hell");
+        M.setText(n);
+
 
         String s="DM";
         t=findViewById(getResources().getIdentifier(s,"id",getPackageName()));
