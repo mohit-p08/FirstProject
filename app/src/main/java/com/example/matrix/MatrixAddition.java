@@ -6,10 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MatrixAddition extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +27,7 @@ public class MatrixAddition extends AppCompatActivity {
                 e[i][j]=findViewById(getResources().getIdentifier(s,"id",getPackageName()));
             }
         }
+
         for(i=0;i<2;i++){
             for(j=0;j<9;j++){
                 if(i==0){
@@ -74,7 +74,6 @@ public class MatrixAddition extends AppCompatActivity {
             result[i]=store1[i]+store2[i];
         }
 
-//
         Intent i2=new Intent(this,elaboration.class);
         i2.putExtra("Extra",result);
         i2.putExtra("Matrix1",store1);
