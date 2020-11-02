@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MatrixMultiplier"
-    android:background="@drawable/inner_bg">
+    android:background="@drawable/equal_button">
 
     <TextView
         android:id="@+id/textView17"
@@ -29,7 +29,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,7 +57,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -68,7 +72,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,7 +87,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -94,7 +102,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,7 +117,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -120,7 +132,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -133,7 +147,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -146,7 +162,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -172,7 +190,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -185,7 +205,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -198,7 +220,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -211,7 +235,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#228B22"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -224,7 +250,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -237,7 +265,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -265,7 +295,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -278,7 +310,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -291,7 +325,9 @@
         android:ems="10"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

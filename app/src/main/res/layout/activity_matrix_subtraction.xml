@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MatrixSubtraction"
-    android:background="@drawable/inner_bg">
+    android:background="@drawable/equal_button">
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="208dp"
         android:layout_height="29dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="160dp"
         android:text="Select the number of Columns"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +22,7 @@
         android:layout_width="208dp"
         android:layout_height="29dp"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="100dp"
         android:text="Select the number of Rows"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -355,7 +355,7 @@
         android:id="@+id/editTextTextPersonName101"
         android:layout_width="55dp"
         android:layout_height="32dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="44dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -367,7 +367,7 @@
         android:id="@+id/editTextTextPersonName102"
         android:layout_width="55dp"
         android:layout_height="32dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="160dp"
         android:layout_marginEnd="44dp"
         android:ems="10"
         android:inputType="textPersonName"

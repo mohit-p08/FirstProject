@@ -14,6 +14,7 @@ public class MatrixDeterminant extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matrix_determinant);
     }
+
     public void AddEqual(View view){
         EditText e[][]=new EditText[3][3];
         int m[][]=new int[3][3];

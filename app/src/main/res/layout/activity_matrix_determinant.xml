@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MatrixDeterminant"
-    android:background="@drawable/inner_bg">
+    android:background="@drawable/equal_button">
 
     <EditText
-        android:id="@+id/MD2"
+        android:id="@+id/MD02"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="110dp"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD5"
+        android:id="@+id/MD12"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="110dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD6"
+        android:id="@+id/MD20"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="416dp"
@@ -56,7 +56,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD7"
+        android:id="@+id/MD21"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="416dp"
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD3"
+        android:id="@+id/MD10"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="370dp"
@@ -87,7 +87,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD4"
+        android:id="@+id/MD11"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="370dp"
@@ -102,7 +102,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD1"
+        android:id="@+id/MD01"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="324dp"
@@ -117,7 +117,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD8"
+        android:id="@+id/MD22"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginStart="110dp"
@@ -133,7 +133,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/MD0"
+        android:id="@+id/MD00"
         android:layout_width="48dp"
         android:layout_height="42dp"
         android:layout_marginTop="324dp"
